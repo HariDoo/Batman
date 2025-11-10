@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/batman/clientlibs"/>
+    <filter root="/apps/batman/components"/>
+    <filter root="/apps/batman/i18n"/>
+    <filter root="/apps/msm/batman_blueprint" mode="merge"/>
+</workspaceFilter>

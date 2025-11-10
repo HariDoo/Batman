@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/batman" mode="merge"/>
+    <filter root="/content/batman" mode="merge"/>
+    <filter root="/content/dam/batman" mode="merge">
+        <exclude pattern="/content/dam/batman(/.*)?"/>
+        <include pattern="/content/dam/batman/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/batman/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/batman" mode="merge"/>
+</workspaceFilter>
