@@ -163,9 +163,9 @@
                                                 
                 <requireJavaVersion>
                                                       
-                  <message>Maven must be executed with a Java 11 JRE or higher.</message>
+                  <message>Maven must be executed with a Java 21 JRE or higher.</message>
                                                       
-                  <version>11</version>
+                  <version>[21,)</version>
                                                   
                 </requireJavaVersion>
                                             
@@ -189,9 +189,9 @@
                         
         <configuration>
                               
-          <source>11</source>
+          <source>21</source>
                               
-          <target>11</target>
+          <target>21</target>
                           
         </configuration>
                     
