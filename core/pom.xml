@@ -43,6 +43,7 @@
                         </goals>
                         <configuration>
                             <bnd><![CDATA[
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Import-Package: javax.annotation;version=0.0.0,*
                                 ]]></bnd>
                         </configuration>
